@@ -1,0 +1,21 @@
+@media (max-width: 500px) {
+  .row {
+    display: block !important;
+  }
+  .nav-link {
+    width: 100%;
+  }
+  .navbar-nav {
+    padding: 30px 0;
+  }
+  #job-info .card {
+    width: 100%;
+  }
+
+  .project-info {
+    display: flex !important;
+  }
+  .project-box {
+    height: auto;
+  }
+}

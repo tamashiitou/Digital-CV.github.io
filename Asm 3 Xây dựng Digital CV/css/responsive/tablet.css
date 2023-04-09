@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+  .nav-link {
+    border: 1px solid rgb(225, 222, 222);
+    justify-self: center;
+  }
+
+  #job-info .card {
+    width: 48%;
+  }
+
+  #job-info span {
+    width: 35px;
+  }
+
+  .certi-box {
+    text-align: center;
+  }
+  .certi-box img {
+    margin-bottom: 25px;
+  }
+  .project-box {
+    height: 760px;
+  }
+}

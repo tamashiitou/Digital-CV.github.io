@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 27px;
+  box-sizing: border-box;
+}
+
+/* banner */
+.banner-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+.carousel-caption {
+  top: 15%;
+}
+.banner {
+  text-shadow: 5px 5px 5px black;
+}
+
+/* Navbar */
+.nav-link {
+  width: 200px;
+}
+.nav-bar img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  border: 10px solid white;
+  z-index: 1;
+}
+
+/* About */
+#about .card {
+  border: none !important;
+}
+#personal-info {
+  background-color: rgb(236, 236, 236);
+}
+#personal-info ul {
+  list-style: none;
+  margin-left: -25px;
+}
+#personal-info a {
+  margin: 0 5px;
+}
+
+/* Job info */
+#job-info .card {
+  width: 32%;
+  margin-bottom: 30px;
+}
+.view-more-btn,
+.view-less-btn {
+  background-color: #ffebbf !important;
+  font-size: 10px !important;
+  border-radius: 30px !important;
+}
+#job-info p {
+  margin-bottom: 0;
+}
+#job-info li::before {
+  display: inline-block;
+  position: absolute;
+  margin-left: -15.5px;
+  margin-top: 0.5px;
+  content: "\2022";
+  font-weight: bold;
+  color: rgb(48, 188, 254);
+} /*Làm đổi màu list bullet*/
+
+/* Sở thích */
+#job-info .hobby-box i {
+  color: orange;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border: 1px solid teal;
+}
+#job-info .hobby-box > * {
+  text-align: center;
+}
+
+/* Ngoại ngữ */
+.language span,
+.skill span {
+  display: inline-block;
+  height: 3px;
+  width: 40px;
+  margin-right: 10px;
+  background-color: rgb(48, 188, 254);
+}
+.language span:last-child,
+.skill span:last-child {
+  background-color: rgb(207, 207, 207);
+}
+/* Kỹ năng */
+#skill-1 span:nth-child(5),
+#skill-2 span:nth-child(5) {
+  background-color: rgb(207, 207, 207);
+}
+
+/* Chứng chỉ */
+.certi-1::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #d6c08d;
+}
+.certi-box {
+  border-bottom: 1px solid #d6c08d;
+}
+.certi-box:last-child {
+  border: none;
+}
+.certi-box {
+  flex-basis: 270px;
+}
+#certificate img {
+  display: inline-block;
+  width: 270px;
+  flex-shrink: 1;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+/* Dự án */
+.project-box {
+  height: 700px;
+}
+.project-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.project-box .list-group-item {
+  border: none;
+}
+.time-tag {
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+.project-box .d-flex {
+  flex-wrap: wrap;
+}
+
+/* footer */
+footer a {
+  text-decoration: none;
+  padding: 0 20px;
+}
